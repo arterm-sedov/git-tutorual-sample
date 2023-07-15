@@ -1,18 +1,4 @@
-## Table of contents
-
-* [Introduction](#introduction)
-* [Prerequisites](#prerequisites)
-* [Setting up a Git Repo](#Setting%20up%20a%20Git%20Repo)
-* [Branch Definition](#Branch%20Definition)
-* [HEAD Definition](#HEAD%20Definition)
-* [Creating Branches](#Creating%20Branches)
-* [Checking out and Working on Branches](#Checking%20out%20and%20Working%20on%20Branches)
-* [Merging Branches](#Merging%20branches)
-	* [Fast-Forward Merge](#Fast-Forward%20Merge)
-	* [3-Way Merge](#3-Way%20Merge)
-* [Deleting Branches](#Deleting%20Branches)
-* [Git Command Reference](#Git%20Command%20Reference)
-
+# Introduction to Git. Working with Branches
 ## Introduction
 
 In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](#Creating%20Branches), [checkout](#Checking%20out%20and%20Working%20on%20Branches), [merge](#Merging%20branches), [delete](#Deleting%20Branches)) and understand the [HEAD pointer concept](#HEAD%20Definition).
