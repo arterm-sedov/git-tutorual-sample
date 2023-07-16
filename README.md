@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction
 
-In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](<./#Creating Branches>), [checkout](<./#Checking out and Working on Branches>), [merge](<./#Merging branches>), [delete](<./#Deleting Branches>)) and understand the [HEAD pointer concept](<./#HEAD Definition>).
+In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](./#creating-branches), [checkout](./#checking-out-and-working-on-branches), [merge](./#merging-branches), [delete](./#deleting-branches)) and understand the [HEAD pointer concept](<./#HEAD Definition>).
 
 The topics from this tutorial are also covered in the following video: [Introduction to Git — Branching and Merging](https://www.youtube.com/@DavidMahler)
 
@@ -110,7 +110,7 @@ You can incorporate or merge changes from a branch into other branches.
 
 To understand how a branch is implemented let's see its visual representation in the commit graph.
 
-The diagram below shows the newly created repo with two commits. See [Setting up a Git Repo](<./#Setting up a Git Repo>).
+The diagram below shows the newly created repo with two commits. See [Setting up a Git Repo](./#setting-up-a-git-repo).
 
 ![A commit graph diagram with two commits on the master branch](<Pasted image 20230130142315.png>)
 
@@ -128,7 +128,7 @@ So far, you only have the first branch: `master`, and HEAD points to it.
 
 In Git terminology, the HEAD pointer tells you what you have checked out.
 
-So from the [diagram above](Pasted%20image%2020230130142315.png) you can see that the master branch is checked out.
+So from the [diagram above](./#branch-definition) you can see that the master branch is checked out.
 
 To see the labeled commit graph in the terminal use some additional options with the `git log` command:
 
@@ -315,8 +315,8 @@ Now let's say your work is done on the `SDN` and `auth` branches, and you want t
 
 We will talk about two types of merges:
 
-* [fast-forward merge](<./#Fast-Forward Merge>)
-* [3-way merge](<./#3-Way Merge>)
+* [fast-forward merge](./#fast-forward-merge)
+* [3-way merge](./#3-way-merge)
 
 ### Fast-Forward Merge
 
@@ -366,13 +366,13 @@ Git has added one line to S1, and `cat S1` shows this.
 
 With the `graph` alias command, you see that the `master` branch is caught up with the `SDN` branch: Git has moved the pointer to the same commit where `SDN` is.
 
-5. As you don't need two branches pointing to the same commit, you can delete the `SDN` branch. See [Deleting Branches](<./#Deleting Branches>).
+5. As you don't need two branches pointing to the same commit, you can delete the `SDN` branch. See [Deleting Branches](./#deleting-branches).
 
 ### 3-Way Merge
 
 Now that you've merged and deleted the `SDN` branch let's do the same for the `auth` branch.
 
-Looking at the commit graph, you can see there is no direct path from the `master` branch to the `auth` branch. Git can not do a [fast-forward merge](<./#Fast-Forward Merge>) this time. For this case, a 3-way merge will happen.
+Looking at the commit graph, you can see there is no direct path from the `master` branch to the `auth` branch. Git can not do a [fast-forward merge](./#fast-forward-merge) this time. For this case, a 3-way merge will happen.
 
 ![The branches that require a 3-way merge](<Pasted image 20230131194216.png>)
 
@@ -393,13 +393,13 @@ git merge auth
 graph
 ```
 
-![](<Pasted image 20230131195530.png>)
+![The result of merging the auth branch](<Pasted image 20230131195530.png>)
 
-The output does not say fast-forward merge [like when merging the `SDN` branch](Pasted%20image%2020230131191935.png). Now it says “Merge made by the 'ort' strategy.”
+The output does not say fast-forward merge [like when merging the `SDN` branch](./#fast-forward-merge). Now it says “Merge made by the 'ort' strategy.”
 
 The `graph` alias command shows the merge commit `bf80100` joining the two branches.
 
-2. Now check that you can safely [delete](<./#Deleting Branches>) the auth branch and delete it:
+2. Now check that you can safely [delete](./#deleting-branches) the auth branch and delete it:
 
 ```bash
 git branch --merged
@@ -420,7 +420,7 @@ You can also force-delete unmerged branches losing all their changes.
 git branch --merged
 ```
 
-2. The SDN branch was [merged earlier](<./#Fast-Forward Merge>), so you can delete it:
+2. The SDN branch was [merged earlier](./#fast-forward-merge), so you can delete it:
 
 ```bash
 git branch -d SDN
