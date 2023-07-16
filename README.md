@@ -1,7 +1,7 @@
 ---
 description: >-
-  This tutorial was commissioned as a test task: create a Git branching
-  introduction article based on a YouTube video
+  This tutorial was a test task: create a Git branching introduction article
+  based on a YouTube video.
 ---
 
 # Git Basics. Working with Branches
@@ -10,7 +10,7 @@ description: >-
 
 In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](./#creating-branches), [checkout](./#checking-out-and-working-on-branches), [merge](./#merging-branches), [delete](./#deleting-branches)) and understand the [HEAD pointer concept](<./#HEAD Definition>).
 
-The topics from this tutorial are also covered in the following video: [Introduction to Git — Branching and Merging](https://www.youtube.com/@DavidMahler)
+The topics from this tutorial are also covered in the following video: [Introduction to Git — Branching and Merging](https://www.youtube.com/@DavidMahler).
 
 ## Prerequisites
 
