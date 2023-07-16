@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Introduction to Git. Working with Branches](README.md)
+* [Git Basics. Working with Branches](README.md)

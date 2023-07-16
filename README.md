@@ -1,4 +1,10 @@
-# Introduction to Git. Working with Branches
+---
+description: >-
+  This tutorial was commissioned as a test task: create a Git introduction based
+  on a YouTube video
+---
+
+# Git Basics. Working with Branches
 
 ## Introduction
 
@@ -134,11 +140,16 @@ git log --all --decorate --oneline --graph
 
 This command shows that you are on the second commit due to the HEAD pointer. The HEAD pointer is pointing to the `master` branch. This tells that you have the `master` branch checked out.
 
-> \[!TIP] TIP You can save the `git log --all --decorate --oneline --graph` command as an alias called `graph` for future use:
->
-> ```bash
-> alias graph="git log --all --decorate --oneline --graph"
-> ```
+
+
+{% hint style="success" %}
+**Tip**
+
+You can save the `git log --all --decorate --oneline --graph` command as an alias called `graph` for future use:
+
+<pre class="language-bash"><code class="lang-bash"><strong>alias graph="git log --all --decorate --oneline --graph 
+</strong></code></pre>
+{% endhint %}
 
 ## Creating Branches
 
