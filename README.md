@@ -1,7 +1,7 @@
 ---
 description: >-
-  This tutorial was a test task: create a Git branching introduction article
-  based on a YouTube video.
+  This tutorial was a test task: write a Git branching introduction based on a
+  YouTube video.
 ---
 
 # Git Basics. Working with Branches
