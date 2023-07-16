@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction
 
-In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](./#creating-branches), [checkout](./#checking-out-and-working-on-branches), [merge](./#merging-branches), [delete](./#deleting-branches)) and understand the [HEAD pointer concept](<./#HEAD Definition>).
+In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](./#creating-branches), [checkout](./#checking-out-and-working-on-branches), [merge](./#merging-branches), [delete](./#deleting-branches)) and understand the [HEAD pointer concept](./#head-definition).
 
 The topics from this tutorial are also covered in the following video: [Introduction to Git — Branching and Merging](https://www.youtube.com/@DavidMahler).
 
