@@ -1,7 +1,7 @@
 ---
 description: >-
-  This tutorial was commissioned as a test task: create a Git introduction based
-  on a YouTube video
+  This tutorial was commissioned as a test task: create a Git branching
+  introduction article based on a YouTube video
 ---
 
 # Git Basics. Working with Branches
