@@ -23,7 +23,9 @@ This tutorial assumes knowledge of the following foundational topics:
 
 These and several other essential topics are covered in the following video: [Introduction to Git — Core Concepts](https://www.youtube.com/watch?v=uR6G2v\_WsRA\&t=0s)
 
-For more details on using Git, you can also refer to the _Pro Git_ book by Scott Chacon: https://git-scm.com/book/en/v2 This tutorial also relies on Vim text editor commands, while you can use your preferred editor.
+For more details on using Git, you can also refer to the _Pro Git_ book by Scott Chacon: [https://git-scm.com/book/en/v2 ](https://git-scm.com/book/en/v2)
+
+This tutorial also relies on Vim text editor commands, while you can use your preferred editor.
 
 ## Setting up a Git Repo
 
