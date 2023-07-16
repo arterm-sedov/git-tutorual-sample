@@ -397,7 +397,7 @@ graph
 
 ![The result of merging the auth branch](<Pasted image 20230131195530.png>)
 
-The output does not say fast-forward merge [like when merging the `SDN` branch](./#fast-forward-merge). Now it says “Merge made by the 'ort' strategy.”
+The output does not say `fast-forward` merge [like when merging the `SDN` branch](./#fast-forward-merge). Now it says “Merge made by the 'ort' strategy.”
 
 The `graph` alias command shows the merge commit `bf80100` joining the two branches.
 
