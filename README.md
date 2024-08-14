@@ -149,7 +149,7 @@ This command shows that you are on the second commit due to the HEAD pointer. Th
 
 You can save the `git log --all --decorate --oneline --graph` command as an alias called `graph` for future use:
 
-<pre class="language-bash"><code class="lang-bash"><strong>alias graph="git log --all --decorate --oneline --graph 
+<pre class="language-bash"><code class="lang-bash"><strong>alias graph="git log --all --decorate --oneline --graph"
 </strong></code></pre>
 {% endhint %}
 
