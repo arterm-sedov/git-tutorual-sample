@@ -206,7 +206,7 @@ When you checked out the `SDN` branch, the HEAD pointer moved to point to the `S
 
 3. While you're are on the `SDN` branch, edit the `S1` file by adding an SDN controller IP (for example, using the `vi S1` command):
 
-```json
+``` yaml
 mgmt_ip: 10.0.0.1
 sdn_controller: 10.20.2.2
 vlans:
@@ -260,7 +260,7 @@ Git replaced your working tree and staging area to match the commit the `auth` b
 
 10. While on the `auth` branch, make a different change to the `S1` file to  map the S1 switch to an authentication server:
 
-```JSON
+``` yaml
 mgmt_ip: 10.0.0.1
 vlans:
   red:
