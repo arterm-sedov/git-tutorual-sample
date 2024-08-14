@@ -1,16 +1,12 @@
 ---
 description: >-
-  This tutorial was a test task: write a Git branching introduction based on a
-  YouTube video.
+  This tutorial was commissioned as a test task: create a Git introduction based
+  on a YouTube video
 ---
 
 # Git Basics. Working with Branches
 
 ## Introduction
-
-In this tutorial, you will learn the basic principles and operations to work with Git branches ([create](./#creating-branches), [checkout](./#checking-out-and-working-on-branches), [merge](./#merging-branches), [delete](./#deleting-branches)) and understand the [HEAD pointer concept](./#head-definition).
-
-The topics from this tutorial are also covered in the following video: [Introduction to Git — Branching and Merging](https://www.youtube.com/@DavidMahler).
 
 ## Prerequisites
 
@@ -23,13 +19,13 @@ This tutorial assumes knowledge of the following foundational topics:
 
 These and several other essential topics are covered in the following video: [Introduction to Git — Core Concepts](https://www.youtube.com/watch?v=uR6G2v\_WsRA\&t=0s)
 
-For more details on using Git, you can also refer to the _Pro Git_ book by Scott Chacon: [https://git-scm.com/book/en/v2 ](https://git-scm.com/book/en/v2)
+For more details on using Git, you can also refer to the _Pro Git_ book by Scott Chacon: [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
 This tutorial also relies on Vim text editor commands, while you can use your preferred editor.
 
 ## Setting up a Git Repo
 
-To complete this tutorial you will need to create a Git repo and add some text files to work with version control.&#x20;
+To complete this tutorial you will need to create a Git repo and add some text files to work with version control.
 
 For the tutorial, we will create a repo with a fake network automation project consisting of one folder: `netauto`, and two files: `S1` and `S2`.
 
@@ -51,7 +47,7 @@ vim S1
 
 3. Enter the following content in the `S1` file and save it:
 
-``` yaml
+```yaml
 mgmt_ip: 10.0.0.1
 vlans:
   red:
@@ -142,8 +138,6 @@ git log --all --decorate --oneline --graph
 
 This command shows that you are on the second commit due to the HEAD pointer. The HEAD pointer is pointing to the `master` branch. This tells that you have the `master` branch checked out.
 
-
-
 {% hint style="success" %}
 **Tip**
 
@@ -206,7 +200,7 @@ When you checked out the `SDN` branch, the HEAD pointer moved to point to the `S
 
 3. While you're are on the `SDN` branch, edit the `S1` file by adding an SDN controller IP (for example, using the `vi S1` command):
 
-``` yaml
+```yaml
 mgmt_ip: 10.0.0.1
 sdn_controller: 10.20.2.2
 vlans:
@@ -258,9 +252,9 @@ The `checkout` command moved the HEAD pointer from `SDN` to `auth`.
 
 Git replaced your working tree and staging area to match the commit the `auth` branch is associated with. At this earlier commit, you don't have the SDN controller change.
 
-10. While on the `auth` branch, make a different change to the `S1` file to  map the S1 switch to an authentication server:
+10. While on the `auth` branch, make a different change to the `S1` file to map the S1 switch to an authentication server:
 
-``` yaml
+```yaml
 mgmt_ip: 10.0.0.1
 vlans:
   red:
@@ -340,7 +334,7 @@ Even if there were multiple commits between the two branches, there is still a f
 
 1. Check the status to see that you're still on the `auth` branch.
 2. Check out the `master` branch.
-3. See,  shows what will change when you merge `SDN` into `master`:
+3. See, shows what will change when you merge `SDN` into `master`:
 
 ```bash
 git status
