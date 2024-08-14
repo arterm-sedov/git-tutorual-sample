@@ -1,7 +1,8 @@
 ---
 description: >-
   This tutorial was commissioned as a test task: create a Git introduction based
-  on a YouTube video
+  on a YouTube video. View it nicely formatted at
+  https://arterm-sedov.gitbook.io/git-tutorial-sample/
 ---
 
 # Git Basics. Working with Branches
