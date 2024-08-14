@@ -51,7 +51,7 @@ vim S1
 
 3. Enter the following content in the `S1` file and save it:
 
-```json
+``` yaml
 mgmt_ip: 10.0.0.1
 vlans:
   red:
